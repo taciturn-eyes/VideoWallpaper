@@ -1,1 +1,199 @@
-<mxfile host="app.diagrams.net" modified="2021-10-02T13:22:12.322Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36 Edg/94.0.992.31" version="15.1.2" etag="KH0WUucsZs2mbsrc8DMf" type="github"><diagram id="otFYnSzLtMTHYNpY4rwS">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-02T13:53:22.608Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36 Edg/94.0.992.31" etag="Rhj5dzWOX9suHls9MpUT" version="15.1.2" type="github">
+  <diagram id="otFYnSzLtMTHYNpY4rwS" name="Page-1">
+    <mxGraphModel dx="1117" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NF__CLXspi6JotHYe9at-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NF__CLXspi6JotHYe9at-3" target="NF__CLXspi6JotHYe9at-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NF__CLXspi6JotHYe9at-3" value="开始" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NF__CLXspi6JotHYe9at-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NF__CLXspi6JotHYe9at-4" target="NF__CLXspi6JotHYe9at-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NF__CLXspi6JotHYe9at-4" value="奇数灯亮" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NF__CLXspi6JotHYe9at-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NF__CLXspi6JotHYe9at-6" target="NF__CLXspi6JotHYe9at-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NF__CLXspi6JotHYe9at-6" value="偶数灯亮&lt;br&gt;i++" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NF__CLXspi6JotHYe9at-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NF__CLXspi6JotHYe9at-8" target="NF__CLXspi6JotHYe9at-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NF__CLXspi6JotHYe9at-8" value="初始化&lt;br&gt;i=0" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NF__CLXspi6JotHYe9at-11" value="是&lt;br&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NF__CLXspi6JotHYe9at-10" target="NF__CLXspi6JotHYe9at-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="480" />
+              <mxPoint x="200" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NF__CLXspi6JotHYe9at-59" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NF__CLXspi6JotHYe9at-10" target="NF__CLXspi6JotHYe9at-58">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="540" />
+              <mxPoint x="400" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NF__CLXspi6JotHYe9at-10" value="i&amp;lt;3?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="440" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NF__CLXspi6JotHYe9at-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NF__CLXspi6JotHYe9at-17" target="NF__CLXspi6JotHYe9at-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NF__CLXspi6JotHYe9at-17" value="灯从左往右流动地亮" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="670" width="120" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="NF__CLXspi6JotHYe9at-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NF__CLXspi6JotHYe9at-19" target="NF__CLXspi6JotHYe9at-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NF__CLXspi6JotHYe9at-19" value="灯从右往左流动地亮&lt;br&gt;i++" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NF__CLXspi6JotHYe9at-29" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NF__CLXspi6JotHYe9at-21" target="NF__CLXspi6JotHYe9at-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NF__CLXspi6JotHYe9at-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NF__CLXspi6JotHYe9at-21" target="NF__CLXspi6JotHYe9at-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="900" />
+              <mxPoint x="230" y="703" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NF__CLXspi6JotHYe9at-63" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NF__CLXspi6JotHYe9at-62">
+          <mxGeometry x="-0.8121" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NF__CLXspi6JotHYe9at-21" value="i&amp;lt;3?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="860" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NF__CLXspi6JotHYe9at-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NF__CLXspi6JotHYe9at-28" target="NF__CLXspi6JotHYe9at-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NF__CLXspi6JotHYe9at-28" value="i=0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1000" width="120" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="NF__CLXspi6JotHYe9at-33" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NF__CLXspi6JotHYe9at-30" target="NF__CLXspi6JotHYe9at-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NF__CLXspi6JotHYe9at-30" value="灯从端向中流动地亮&lt;br&gt;i++" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1109" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NF__CLXspi6JotHYe9at-37" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NF__CLXspi6JotHYe9at-32" target="NF__CLXspi6JotHYe9at-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NF__CLXspi6JotHYe9at-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NF__CLXspi6JotHYe9at-32" target="NF__CLXspi6JotHYe9at-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="1260" />
+              <mxPoint x="320" y="1139" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NF__CLXspi6JotHYe9at-66" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NF__CLXspi6JotHYe9at-65">
+          <mxGeometry x="-0.0583" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NF__CLXspi6JotHYe9at-32" value="i&amp;lt;3?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1220" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NF__CLXspi6JotHYe9at-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NF__CLXspi6JotHYe9at-36" target="NF__CLXspi6JotHYe9at-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NF__CLXspi6JotHYe9at-36" value="i=0" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NF__CLXspi6JotHYe9at-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NF__CLXspi6JotHYe9at-38" target="NF__CLXspi6JotHYe9at-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NF__CLXspi6JotHYe9at-38" value="灯从中向端流动地亮&lt;br&gt;i++" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NF__CLXspi6JotHYe9at-44" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NF__CLXspi6JotHYe9at-40" target="NF__CLXspi6JotHYe9at-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NF__CLXspi6JotHYe9at-57" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NF__CLXspi6JotHYe9at-40" target="NF__CLXspi6JotHYe9at-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="1460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="1590" />
+              <mxPoint x="220" y="1460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NF__CLXspi6JotHYe9at-40" value="i&amp;lt;3?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1550" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NF__CLXspi6JotHYe9at-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NF__CLXspi6JotHYe9at-43" target="NF__CLXspi6JotHYe9at-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NF__CLXspi6JotHYe9at-43" value="i=0" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NF__CLXspi6JotHYe9at-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NF__CLXspi6JotHYe9at-45" target="NF__CLXspi6JotHYe9at-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NF__CLXspi6JotHYe9at-45" value="灯全亮" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NF__CLXspi6JotHYe9at-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NF__CLXspi6JotHYe9at-47" target="NF__CLXspi6JotHYe9at-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NF__CLXspi6JotHYe9at-47" value="灯全灭" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NF__CLXspi6JotHYe9at-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="NF__CLXspi6JotHYe9at-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="1660" as="targetPoint" />
+            <mxPoint x="200" y="1980" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="200" y="1870" />
+              <mxPoint x="200" y="1670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NF__CLXspi6JotHYe9at-53" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NF__CLXspi6JotHYe9at-51">
+          <mxGeometry x="-0.7999" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NF__CLXspi6JotHYe9at-55" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NF__CLXspi6JotHYe9at-49" target="NF__CLXspi6JotHYe9at-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NF__CLXspi6JotHYe9at-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NF__CLXspi6JotHYe9at-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="1980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NF__CLXspi6JotHYe9at-49" value="i&amp;lt;3?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1940" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NF__CLXspi6JotHYe9at-54" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="2090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NF__CLXspi6JotHYe9at-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NF__CLXspi6JotHYe9at-58" target="NF__CLXspi6JotHYe9at-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NF__CLXspi6JotHYe9at-58" value="i=0" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
